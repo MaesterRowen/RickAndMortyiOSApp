@@ -14,6 +14,9 @@
 		BA4F8F7E2A4159F2007D9A40 /* RMLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8F7D2A4159F2007D9A40 /* RMLocationsViewController.swift */; };
 		BA4F8F802A415A04007D9A40 /* RMEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8F7F2A415A04007D9A40 /* RMEpisodesViewController.swift */; };
 		BA4F8F822A415A1C007D9A40 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8F812A415A1C007D9A40 /* RMSettingsViewController.swift */; };
+		BA8DCC412A41631300005131 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8DCC402A41631300005131 /* RMService.swift */; };
+		BA8DCC432A41633600005131 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8DCC422A41633600005131 /* RMRequest.swift */; };
+		BA8DCC452A4163BB00005131 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8DCC442A4163BB00005131 /* RMEndpoint.swift */; };
 		BACE305A2A41548D004F4797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE30592A41548D004F4797 /* AppDelegate.swift */; };
 		BACE305C2A41548D004F4797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE305B2A41548D004F4797 /* SceneDelegate.swift */; };
 		BACE305E2A41548D004F4797 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE305D2A41548D004F4797 /* RMTabBarController.swift */; };
@@ -29,6 +32,9 @@
 		BA4F8F7D2A4159F2007D9A40 /* RMLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationsViewController.swift; sourceTree = "<group>"; };
 		BA4F8F7F2A415A04007D9A40 /* RMEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesViewController.swift; sourceTree = "<group>"; };
 		BA4F8F812A415A1C007D9A40 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		BA8DCC402A41631300005131 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		BA8DCC422A41633600005131 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		BA8DCC442A4163BB00005131 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 		BACE30562A41548D004F4797 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACE30592A41548D004F4797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BACE305B2A41548D004F4797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 		BACE30712A41561F004F4797 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				BA8DCC402A41631300005131 /* RMService.swift */,
+				BA8DCC422A41633600005131 /* RMRequest.swift */,
+				BA8DCC442A4163BB00005131 /* RMEndpoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -226,8 +235,11 @@
 				BACE305A2A41548D004F4797 /* AppDelegate.swift in Sources */,
 				BACE305C2A41548D004F4797 /* SceneDelegate.swift in Sources */,
 				BA4F8F822A415A1C007D9A40 /* RMSettingsViewController.swift in Sources */,
+				BA8DCC412A41631300005131 /* RMService.swift in Sources */,
 				BA4F8F752A415935007D9A40 /* RMLocation.swift in Sources */,
+				BA8DCC452A4163BB00005131 /* RMEndpoint.swift in Sources */,
 				BA4F8F772A41593F007D9A40 /* RMCharacter.swift in Sources */,
+				BA8DCC432A41633600005131 /* RMRequest.swift in Sources */,
 				BA4F8F7C2A4159DA007D9A40 /* RMCharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
