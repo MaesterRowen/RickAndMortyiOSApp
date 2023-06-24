@@ -62,6 +62,7 @@ final class RMCharacterCollectionViewCell: UICollectionViewCell {
             nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 7),
             nameLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -7),
             
+            
             statusLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -3 ),
             nameLabel.bottomAnchor.constraint(equalTo: statusLabel.topAnchor),
             
