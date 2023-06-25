@@ -64,7 +64,7 @@ final class RMCharacterDetailViewController: UIViewController {
     }
 }
 
-// MARK - CollectionView
+/// MARK - CollectionView
 
 extension RMCharacterDetailViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
